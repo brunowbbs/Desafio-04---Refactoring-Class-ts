@@ -41,12 +41,11 @@ Desafio 2 do módulo 2 da trilha de ReactJS da Rocketseat, essa será uma apl
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-
-&#xa0;
+- [Styled Components](https://styled-components.com/)
+- [Node.js](https://nodejs.org/pt-br/)
+- [ReactJS](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+  &#xa0;
 
 ## :white_check_mark: Pré requisitos
 
@@ -60,16 +59,20 @@ Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.co
 # Clone este repositório
 $ git clone https://github.com/brunowbbs/Desafio-04---Refactoring-Class-ts.git
 
-# Entre na pasta
-$ cd Desafio-04---Refactoring-Class-ts
+ # Instale as dependências
+ $ yarn install ou
+ $ npm i
 
-# Instale as dependências
-$ yarn
+ # A aplicação simula uma Fake API através da utilização do json-server, assim é necessário startá-la
+ $ npm server
+ $ yarn server
 
-# Para iniciar o projeto
-$ yarn start
+ # Execute a aplicação em modo de desenvolvimento
+ $ npm start
+ $ yarn start
 
-# O app vai inicializar em <http://localhost:3000>
+ # O servidor iniciará na porta:3000
+ # Acesse http://localhost:3000
 ```
 
 &#xa0;
